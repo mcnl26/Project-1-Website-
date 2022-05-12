@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/myStyle.css">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Dancing Script|Audiowide|Satisfy|Square Peg|Quattrocento">
+    <script src="https://kit.fontawesome.com/3fd7489e8f.js" crossorigin="anonymous"></script>
+    <script src="./js/bootstrap.bundle.js" async></script>
+    <title>Project 1</title>
+</head>
+<body>
+
+<!-- Front Page -->
+
+    <div class="frontPage">
+        <img class="sandAndSea" src="./image/frontPageImage.jpg" alt="image">
+        <div class="contentWrap">
+            <h1 class="frontHeader">Feel the vibe</h1>
+            <h2>Camarines Norte</h2>    
+            <a href="#homePage">
+                <button type="button" class="button" id="button">
+                    <i class="fa-solid fa-angle-down"></i>
+                </button>
+            </a>    
+        </div>
+    </div>
+
+<!-- Home Page -->
+    
+    <div class="homePage" id="homePage">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-customgreen fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand navbar-brand-custom" href="#"><i class="fa-solid fa-xmark"></i> plor</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#homePage">Home</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#provincePage">The Province</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>   
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+                </div>
+            </div>
+        </nav>
+
+        <div class="hompage-content">
+            <div class="header1">Discover Camarines Norte</div>
+            <div class="header2 fw-light">From great beaches to good foods</div>
+            <table class="table">
+                <tr>
+                    <td>
+                        <a class="text-decoration-none" href="#">
+                            <div class="card text-white bg-transparent mb-3 border border-light" style="max-width: 18rem;">
+                                <div class="card-header text-center">Food</div>
+                                <div class="card-body">
+                                <img src="./image/food.jpg" alt="food" class="card-img opacity-50">
+                                </div>
+                            </div>    
+                        </a>
+                    </td>
+                    <td>
+                        <a class="text-decoration-none" href="#">
+                            <div class="card text-white bg-transparent mb-3 border border-light" style="max-width: 18rem;">
+                                <div class="card-header text-center">Beach</div>
+                                <div class="card-body">
+                                <img src="./image/beach.jpg" alt="food" class="card-img opacity-50">
+                                </div>
+                            </div>    
+                        </a>
+                    </td>
+                    <td>
+                        <a class="text-decoration-none" href="#">
+                            <div class="card text-white bg-transparent mb-3 border border-light" style="max-width: 18rem;">
+                                <div class="card-header text-center">Recreation</div>
+                                <div class="card-body">
+                                <img src="./image/recreation.jpg" alt="food" class="card-img opacity-50">
+                                </div>
+                            </div>    
+                        </a>
+                    </td>
+                </tr>
+            </table>
+    
+        </div>
+    </div>
+
+<!-- The Province Page -->
+
+<div class="provincePage" id="provincePage">
+    <div class="provincePage-content">
+        <div class="left-div">
+            <img src="./image/bantayog-removebg-preview.png" alt="bantayog" class="opacity-75">
+            <p class="fst-italic opacity-50 small">The First Rizal Monument</p>
+        </div>
+        <div class="right-div">
+            <h1 class="h1">The Province</h1>
+            <p>Camarines Norte (Central Bikol: Amihanan na Camarines; Tagalog: Hilagang Camarines) is a province in the Philippines located in the Bicol Region in Luzon. Its capital is Daet. The province borders Quezon to the west, Camarines Sur to the south, and the Philippine Sea to the north. It has historically been a Bikol speaking region, however there has been a language shift in recent years to Tagalog which is more commonly used nowadays.</p>
+            <p>The Rizal Monument in Daet, Camarines Norte was the first monument built to honor José Rizal, and is the oldest surviving such monument in the Philippines. It was designed by Lt. Colonel Antonio Sanz with the help of Ildefonso Alegre of the Philippine Revolutionary Army and through the financial contributions of the locals of Camarines Norte.[1] The three-tiered stone pylon with its square base supporting a triangle in two stages was the first monument and memorial marker in memory of the Philippines' National Hero.[2]</p>
+            <p class="fst-italic opacity-50 small source">Source: https://en.wikipedia.org/</p>
+            <a href="#homePage" class="link-success">Back to main</a>
+        </div>
+    </div>
+</div>
+
+
+<!-- Food Page -->
+
+<div class="foodPage" id="foodPage">
+    <div class="foodPage-content">
+
+
+        <div class="foodPage-subcontent container">
+            <div class="h1 text-light pt-3">Food choices</div>
+            <p class="text-center text-light">Featured </p>
+
+            <div id="carouselExampleIndicators" class="carousel slide w-60" data-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                        <img class="d-block w-60" src="./image/catherines/place4.png" alt="First slide">
+                        <div class="carousel-caption d-none d-md-block">
+                            <img class="d-block w-50" src="./image/catherines/catherines-removebg-preview.png" alt="First slide">
+                        </div>
+                  </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>            
+        </div> 
+    </div>
+</div>
+
+
+
+</body>
+</html>
