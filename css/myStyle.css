@@ -170,6 +170,31 @@ margin: 0;
             background: rgba(30, 46, 30, 0.744);
             width: 100vw;
             height: 100vh;        
+            padding-top: 80px;
+            }
+
+            .carousel {
+            margin: auto;
+            }
+
+                .carousel img {
+                margin: auto;
+                }
+
+/* Beach Page */
+
+.beachPage {
+    height: 100vh;
+    width: 100vw;
+    background-image: url(../image/beachpagebg.jpg);
+    background-size: 100vw 100vh;
+        }
+
+            .beachPage-content {
+            background: rgba(30, 46, 30, 0.744);
+            width: 100vw;
+            height: 100vh;        
+            padding-top: 80px;
             }
 
             .carousel {
