@@ -51,7 +51,16 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#">Contact</a>
                     </li>
-                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          What to do
+                        </a>
+                        <ul class="dropdown-menu bg-light opacity-75" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="#foodPage">Food</a></li>
+                          <li><a class="dropdown-item" href="#beachPage">Beach</a></li>
+                          <li><a class="dropdown-item" href="#recreationalPage">Recreation</a></li>
+                        </ul>
+                      </li>
                 </ul>
                 <form class="d-flex">
                     <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
@@ -87,7 +96,7 @@
                         </a>
                     </td>
                     <td>
-                        <a class="text-decoration-none" href="#">
+                        <a class="text-decoration-none" href="#recreationalPage">
                             <div class="card text-white bg-transparent mb-3 border border-light" style="max-width: 18rem;">
                                 <div class="card-header text-center">Recreation</div>
                                 <div class="card-body">
@@ -98,7 +107,6 @@
                     </td>
                 </tr>
             </table>
-    
         </div>
     </div>
 
@@ -108,7 +116,9 @@
     <div class="provincePage-content">
         <div class="left-div">
             <img src="./image/bantayog-removebg-preview.png" alt="bantayog" class="opacity-75">
-            <p class="fst-italic opacity-50 small">The First Rizal Monument</p>
+            <p class="fst-italic opacity-50 small">The First Rizal Monument
+                <br>Daet, Camarines Norte
+            </p>
         </div>
         <div class="right-div">
             <h1 class="h1">The Province</h1>
@@ -128,48 +138,47 @@
         <div class="foodPage-subcontent container">
             <div class="h1 text-light pt-3 text-center">Dine and Chill</div>
             <p class="text-center text-light">Featured </p>
-
             <!-- Carousel -->
-            <div id="carouselExampleCaptions" class="carousel slide w-100" data-bs-ride="carousel">
+            <div id="carouselFood" class="carousel slide w-100" data-bs-ride="carousel">
                 <div class="carousel-indicators">
-                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                  <button type="button" data-bs-target="#carouselFood" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselFood" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselFood" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  <button type="button" data-bs-target="#carouselFood" data-bs-slide-to="3" aria-label="Slide 4"></button>
                 </div>
                 <div class="carousel-inner">
                   <div class="carousel-item active">
-                    <img src="./image/foods/catherinesBg.png" class="d-block w-75" alt="...">
+                    <img src="./image/foods/catherinesBg.png" class="d-block w-75 shadow-lg rounded" alt="...">
                     <div class="carousel-caption d-none d-md-block">
                         <img class="w-75 opacity-75" src="./image/foods/catherines.png" alt="">
                         <p></p>
                     </div>
                   </div>
                   <div class="carousel-item">
-                    <img src="./image/foods/herbs&spicesBg.png" class="d-block w-75" alt="...">
+                    <img src="./image/foods/herbs&spicesBg.png" class="d-block w-75 shadow-lg rounded" alt="...">
                     <div class="carousel-caption d-none d-md-block">
                         <img class="w-50 opacity-75" src="./image/foods/herbs&spices.png" alt="">
                     </div>
                   </div>
                   <div class="carousel-item">
-                    <img src="./image/foods/rusticBg.jpg" class="d-block w-75" alt="...">
+                    <img src="./image/foods/rusticBg.jpg" class="d-block w-75 shadow-lg rounded" alt="...">
                     <div class="carousel-caption d-none d-md-block">
                         <img class="w-25 opacity-75" src="./image/foods/rustic.png" alt="">
                     </div>
                   </div>
                   <div class="carousel-item">
-                    <img src="./image/foods/tabinDagatBg.jpg" class="d-block w-75" alt="...">
+                    <img src="./image/foods/tabinDagatBg.jpg" class="d-block w-75 shadow-lg rounded" alt="...">
                     <div class="carousel-caption d-none d-md-block">
                         <img class="w-25 opacity-75 rounded-circle" src="./image/foods/tabinDagat.jpg" alt="">
                     </div>
                   </div>
 
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselFood" data-bs-slide="prev">
                   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                   <span class="visually-hidden">Previous</span>
                 </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselFood" data-bs-slide="next">
                   <span class="carousel-control-next-icon" aria-hidden="true"></span>
                   <span class="visually-hidden">Next</span>
                 </button>
@@ -177,61 +186,66 @@
 
               <!-- Button trigger modal -->
             <div class="text-center mt-4">
-                <button type="button" class="btn btn-success text text-light border border-light opacity-75" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                <button type="button" class="btn btn-success text text-light border border-light opacity-75" data-bs-toggle="modal" data-bs-target="#foodModal">
                     View list
                 </button>
             </div>
             
             <!-- Modal -->
-            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal fade" id="foodModal" tabindex="-1" aria-labelledby="foodModalLabel" aria-hidden="true">
                 <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">List of Available Places</h5>
+                    <h5 class="modal-title" id="foodModalLabel">List of Available Places</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
                         <p>Click the link for more information</p>
-                       <table class="table mt-1">
+                       <table class="table mt-1 ps-1 table-hover">
                            <tr class="text-center">
-                               <th>Logo</th>
                                <th>Name</th>
+                               <th>Address</th>
                                <th>Contact</th>
-                               <th>Link</th>
+                               <th>Facebook Link</th>
                             </tr>
-                            <tr class="text-center">
-                                <td><img class="w-75" src="./image/foods/catherines.png" alt=""></td>
+                            <tr class="">
                                 <td>Catherine's Restaurant</td>
-                                <td>09081939661</td>
+                                <td>
+                                    <a href="https://www.google.com/maps/place/Catherine's/@14.1336633,122.9844614,15z/data=!4m5!3m4!1s0x0:0xe0e4d521023ade3c!8m2!3d14.1336633!4d122.9844614" target="_blank">Cory Aquino Boulevard, Brgy., Bagasbas, Daet Camarines Norte</a>
+                                </td>
+                                <td>09175101856</td>
                                 <td><a href="https://www.facebook.com/pages/Catherines-Resort-Bagasbas-Daet-Cam-Norte/298664236812461" target="_blank">Link</a></td>
                             </tr>
-                            <tr class="text-center">
-                                <td><img class="w-50" src="./image/foods/herbs&spices.png" alt=""></td>
+                            <tr class="">
                                 <td>Herbs & Spices</td>
+                                <td>
+                                    <a href="https://www.google.com/maps/place/Herbs+%26+Spices/@14.1121797,122.9437789,17z/data=!3m1!4b1!4m5!3m4!1s0x3398af436e90d463:0xf98a313ce5dc614a!8m2!3d14.1121745!4d122.9459676" target="_blank">Happy Homes Greenview, Daet Camarines Norte</a>
+                                </td>
                                 <td>09081939661</td>
                                 <td><a href="https://www.facebook.com/Herbs-Spices-237665888206464" target="_blank">Link</a></td>
                             </tr>
-                            <tr class="text-center">
-                                <td><img class="w-25" src="./image/foods/rustic.png" alt=""></td>
+                            <tr class="">
                                 <td>Rustic Cafe</td>
+                                <td>
+                                    <a href="https://www.google.com/maps/place/The+Rustic+Caf%C3%A9/@14.1074305,122.9565427,17.5z/data=!4m5!3m4!1s0x3398afc1f71b1135:0x94520f24fa8023e1!8m2!3d14.1081467!4d122.9558515" target="_blank">F. Pimentel Avenue, Daet Camarines Norte</a>
+                                </td>
                                 <td>09081939661</td>
                                 <td><a href="https://www.facebook.com/TheRusticCafeDaet" target="_blank">Link</a></td>
                             </tr>
-                            <tr class="text-center">
-                                <td><img class="w-25 rounded-circle" src="./image/foods/tabinDagat.jpg" alt=""></td>
+                            <tr class="">
                                 <td>Tabin Dagat</td>
+                                <td>
+                                    <a href="https://www.google.com/maps/place/Tabin'+Dagat+Restobar/@14.1397478,122.9792967,17z/data=!3m1!4b1!4m5!3m4!1s0x3398afbeae5ef891:0x15f9973f669dfa68!8m2!3d14.1397426!4d122.9814854" target="_blank">Cory Aquino Boulevard, Brgy., Bagasbas, Daet Camarines Norte</a>
+                                </td>
                                 <td>09081939661</td>
                                 <td><a href="https://www.facebook.com/TabinDagat" target="_blank">Link</a></td>
                             </tr>
                        </table>
                     </div>
-                    <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Save changes</button>
-                    </div>
                 </div>
                 </div>
             </div>
+
          </div>
     </div>
 </div>
@@ -251,30 +265,44 @@
                               <button type="button" data-bs-target="#beachCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
                               <button type="button" data-bs-target="#beachCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
                               <button type="button" data-bs-target="#beachCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                              <button type="button" data-bs-target="#beachCarousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                              <button type="button" data-bs-target="#beachCarousel" data-bs-slide-to="5" aria-label="Slide 6"></button>
                             </div>
                             <div class="carousel-inner">
                               <div class="carousel-item active">
-                                <img src="./image/beach/calaguasBg.JPG" class="d-block w-75" alt="...">
+                                <img src="./image/beach/calaguasBg.JPG" class="d-block w-75 opacity-75 shadow-lg rounded" alt="...">
                                 <div class="carousel-caption d-none d-md-block">
-                                    <h1>Calaguas Island</h1>
+                                    <h1>Mahabang Buhangin Beach</h1>
                                 </div>
                               </div>
                               <div class="carousel-item">
-                                <img src="./image/beach/candelariaBg.jpg" class="d-block w-75" alt="...">
+                                <img src="./image/beach/candelariaBg.jpg" class="d-block w-75 opacity-75 shadow-lg rounded" alt="...">
                                 <div class="carousel-caption d-none d-md-block">
                                     <h1>Candelaria Beach Resort</h1>
                                 </div>
                               </div>
                               <div class="carousel-item">
-                                <img src="./image/beach/bagasbasBg.jpg" class="d-block w-75" alt="...">
+                                <img src="./image/beach/bagasbasBg.jpg" class="d-block w-75 opacity-75 shadow-lg rounded" alt="...">
                                 <div class="carousel-caption d-none d-md-block">
                                     <h1>Bagasbas Surfing Beach</h1>
                                 </div>
                               </div>
                               <div class="carousel-item">
-                                <img src="./image/beach/apuaoBg.jpg" class="d-block w-75" alt="...">
+                                <img src="./image/beach/apuaoBg.jpg" class="d-block w-75 opacity-75 shadow-lg rounded" alt="...">
                                 <div class="carousel-caption d-none d-md-block">
                                     <h1>Apuao Island</h1>
+                                </div>
+                              </div>
+                              <div class="carousel-item">
+                                <img src="./image/beach/canimogBg.jpg" class="d-block w-75 opacity-75 shadow-lg rounded" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h1>Canimog Island</h1>
+                                </div>
+                              </div>
+                              <div class="carousel-item">
+                                <img src="./image/beach/tamboBg.jpg" class="d-block w-75 opacity-75 shadow-lg rounded" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h1>Tambo Beach</h1>
                                 </div>
                               </div>
             
@@ -288,9 +316,179 @@
                               <span class="visually-hidden">Next</span>
                             </button>
                           </div>
+
+        <!-- Button trigger modal -->
+            <div class="text-center mt-4">
+                <button type="button" class="btn btn-success text text-light border border-light opacity-75" data-bs-toggle="modal" data-bs-target="#beachModal">
+                    View list
+                </button>
+            </div>
             
+            <!-- Modal -->
+            <div class="modal fade" id="beachModal" tabindex="-1" aria-labelledby="beachModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h5 class="modal-title" id="beachModalLabel">List of Available Places</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Click the link for more information</p>
+                       <table class="table mt-1 ps-1 table-hover">
+                           <tr class="">
+                               <th>Beach</th>
+                               <th>Location</th>
+                               <th>Link</th>
+                            </tr>
+                            <tr class="">
+                                <td>Mahabang Buhangin Beach</td>
+                                <td>Calaguas Island</td>
+                                <td><a href="https://www.facebook.com/calaguasparadiseresort" target="_blank">Link</a></td>
+                            </tr>
+                            <tr class="">
+                                <td>Candelaria Beach Resort</td>
+                                <td>Paracale, Camarines Norte</td>
+                                <td><a href="https://www.facebook.com/CandelariaBeachResort" target="_blank">Link</a></td>
+                            </tr>
+                            <tr class="">
+                                <td>Bagasbas Beach Resort</td>
+                                <td>Daet, Camarines Norte</td>
+                                <td><a href="https://www.facebook.com/bagasbasbeachdaet" target="_blank">Link</a></td>
+                            </tr>
+                            <tr class="">
+                                <td>Apuao Island</td>
+                                <td>Mercedes, Camarines Norte</td>
+                                <td><a href="https://www.facebook.com/APUAO-Grande-Island-241813682943277/" target="_blank">Link</a></td>
+                            </tr>
+                            <tr class="">
+                                <td>Canimog Island</td>
+                                <td>Mercedes, Camarines Norte</td>
+                                <td><a href="https://www.facebook.com/canimogisland" target="_blank">Link</a></td>
+                            </tr>
+                            <tr class="">
+                                <td>Tambo Beach</td>
+                                <td>Basud, Camarines Norte</td>
+                                <td><a href="https://www.facebook.com/TamboBeachResort" target="_blank">Link</a></td>
+                            </tr>
+                       </table>
+                    </div>
+                </div>
+                </div>
+            </div>
         </div>
     </div>
+
+<!-- Recreational Page-->
+    <div class="recreationalPage" id="recreationalPage">
+        <div class="recreationalPage-content">
+            <div class="recreationalPage-subcontent container"></div>
+            <div class="h1 text-light pt-3 text-center">Recreational Place</div>
+            <p class="text-center text-light">Featured</p>
+
+<!-- Carousel -->
+<div id="carouselRec" class="carousel slide w-75" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselRec" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselRec" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselRec" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselRec" data-bs-slide-to="3" aria-label="Slide 4"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./image/recreation/altheasBg.jpg" class="d-block w-75 shadow-lg rounded" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+            <img class="w-25 opacity-75 rounded-circle" src="./image/recreation/altheas.jpg" alt="">
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./image/recreation/casaBg.jpg" class="d-block w-75 shadow-lg rounded" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+            <img class="w-25 opacity-75 rounded-circle" src="./image/recreation/casa.jpg" alt="">
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./image/recreation/mariaBg.jpg" class="d-block w-75 shadow-lg rounded" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+            <img class="w-25 opacity-75 rounded-circle" src="./image/recreation/maria.jpg" alt="">
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./image/recreation/casanayonBg.jpg" class="d-block w-75 shadow-lg rounded" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+            <img class="w-25 opacity-75 rounded-circle" src="./image/recreation/casanayon.jpg" alt="">
+        </div>
+      </div>
+
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselRec" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselRec" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  
+              <!-- Button trigger modal -->
+              <div class="text-center mt-4">
+                <button type="button" class="btn btn-success text text-light border border-light opacity-75" data-bs-toggle="modal" data-bs-target="#recreationModal">
+                    View list
+                </button>
+            </div>
+            
+            <!-- Modal -->
+            <div class="modal fade" id="recreationModal" tabindex="-1" aria-labelledby="recreationModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h5 class="modal-title" id="recreationModalLabel">List of Available Places</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Click the link for more information</p>
+                       <table class="table mt-1 ps-1 table-hover">
+                           <tr class="">
+                               <th>Name</th>
+                               <th>Address</th>
+                               <th>Contact</th>
+                               <th>Facebook Link</th>
+                            </tr>
+                            <tr class="">
+                                <td>Altheas Dreamland's Resort</td>
+                                <td>San Lorenzo Ruiz, Camarines Norte</td>
+                                <td>09081939661</td>
+                                <td><a href="https://www.facebook.com/Altheas-Dreamlands-Resort-101900459160759" target="_blank">Link</a></td>
+                            </tr>
+                            <tr class="">
+                                <td>Casa Indan Hotel Resort and Restaurant</td>
+                                <td>Sto Domingo, Vinzons, Camarines Norte</td>
+                                <td>09081939661</td>
+                                <td><a href="https://www.facebook.com/casaindan2021" target="_blank">Link</a></td>
+                            </tr>
+                            <tr class="">
+                                <td>Maria Fatima Resort</td>
+                                <td>Labo, Camarines Norte</td>
+                                <td>09081939661</td>
+                                <td><a href="https://www.facebook.com/Maria-Fatima-Farm-Resort-168180967031542" target="_blank">Link</a></td>
+                            </tr>
+                            <tr class="">
+                                <td>Casanayon</td>
+                                <td>Bagong Silan 1, Labo, Camarines Norte</td>
+                                <td>09081939661</td>
+                                <td><a href="https://www.facebook.com/casanayonresort" target="_blank">Link</a></td>
+                            </tr>
+                       </table>
+                    </div>
+                </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+    
 
 
 
