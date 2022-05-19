@@ -175,6 +175,11 @@ margin: 0;
             padding-top: 80px;
             }
 
+                .foodPage-content .h1 {
+                font-family: "Satisfy",serif;
+                font-size: 60px;
+                }
+
             .carousel {
             margin: auto;
             }
@@ -198,6 +203,11 @@ margin: 0;
             height: 100vh;        
             padding-top: 35px;
             }
+
+                .beachPage-content .h1 {
+                font-family: "Satisfy",serif;
+                font-size: 50px;    
+                }
 
             .carousel {
             margin: auto;
